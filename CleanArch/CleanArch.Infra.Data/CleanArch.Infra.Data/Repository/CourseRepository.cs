@@ -11,7 +11,7 @@ namespace CleanArch.Infra.Data.Repository
     {
         private UniversityDBContext _ctx;
 
-        private CourseRepository(UniversityDBContext ctx) 
+        public CourseRepository(UniversityDBContext ctx) 
         {
             _ctx = ctx;
         }
